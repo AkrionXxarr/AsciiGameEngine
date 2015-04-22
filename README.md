@@ -6,7 +6,7 @@ This was one of my first big projects, and I'm still a little dumbfounded that I
 To go into more detail with the message box:
 * Logical word wrapping: This would wrap the full word, rather than wrap mid word, by moving to the right most extreme and stepping backwards until either A) It encountered a space or B) it stepped back more than half the message box width, after which it would give up and just split the word.
 * Text coloring: The user would supply a default color for all text and then use tags in the form of `$<HalfRed>` or `$<HR>` to change the color to the console's dark red color. The user could then use the tag `$<default>` or `$<dflt>` to return it to the default specified color. This was done by parsing the tags and changing the output color accordingly.
-* Long messages: When the message was found to be longer than the box could display, the word <Enter> would be displayed at the bottom with two flashing, downward pointing arrows, and wait for the user to press enter before displaying the next field of text. This would repeat as many times as would be needed until the end of the message was encountered.
+* Long messages: When the message was found to be longer than the box could display, the word `<Enter>` would be displayed at the bottom with two flashing, downward pointing arrows, and wait for the user to press enter before displaying the next field of text. This would repeat as many times as would be needed until the end of the message was encountered.
 
 Demonstration video (Level Editor):<br>
 https://www.youtube.com/watch?v=icsvozg117A
